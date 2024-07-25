@@ -1,0 +1,64 @@
+/* CSS for table styling with blue theme */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+thead {
+    background-color: #3498db; /* Blue */
+    color: white; /* White text */
+    font-size: 18px; /* set the font size of the header to 18 pixels */
+  height: 3em; /* set the height of the header to 3 times the font size */
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #2980b9; /* Darker blue */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ecf0f1; /* Light gray */
+}
+
+tbody tr:hover {
+    background-color: #bdc3c7; /* Gray */
+}
+
+.upload-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db; /* Blue */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #2980b9; /* Darker blue */
+}

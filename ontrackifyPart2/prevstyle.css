@@ -1,0 +1,32 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #3498db; /* Blue border color */
+    border-radius: 20px;
+    background-color: #90c2ee; /* Light gray background color */
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #378bc7; /* Light gray border color */
+    border-radius: 30px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #3498db; /* Blue background color */
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
